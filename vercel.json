@@ -1,0 +1,21 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "src/main.js",
+        "use": "@vercel/vite",
+        "config": {
+          "build": {
+            "outDir": "dist" 
+          },
+          "publicDir": "public"
+        }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "src/main.js"
+      }
+    ]
+  }
