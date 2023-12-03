@@ -67,7 +67,7 @@ const Menu = () => {
               </div>
             </div>
             <div className="col-lg-6 menu-item filter-specialty">
-            <img
+              <img
                 src={`${image1}`}
                 className="menu-img"
                 alt
@@ -81,7 +81,7 @@ const Menu = () => {
               </div>
             </div>
             <div className="col-lg-6 menu-item filter-starters">
-            <img
+              <img
                 src={`${image2}`}
                 className="menu-img"
                 alt
@@ -91,7 +91,7 @@ const Menu = () => {
                 <span>Rp 450.000,-/night for 6 pax</span>
               </div>
               <div className="menu-ingredients">
-              Berikan pengalaman quality time yang terbaik bersama teman dan orang-orang terdekat Anda.
+                Berikan pengalaman quality time yang terbaik bersama teman dan orang-orang terdekat Anda.
               </div>
             </div>
             <div className="col-lg-6 menu-item filter-salads">
@@ -166,7 +166,7 @@ const Menu = () => {
             </div>
             <div className="col-lg-6 menu-item filter-specialty">
               <img
-                src="src/assets/img/menu/lobster-roll.jpg"
+                src="/menu/lobster-roll.jpg"
                 className="menu-img"
                 alt
               />
