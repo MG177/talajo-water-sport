@@ -166,7 +166,7 @@ const Menu = () => {
             </div>
             <div className="col-lg-6 menu-item filter-specialty">
               <img
-                src="/menu/lobster-roll.jpg"
+                src="img/menu/lobster-roll.jpg"
                 className="menu-img"
                 alt
               />
